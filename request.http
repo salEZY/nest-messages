@@ -1,0 +1,15 @@
+### GET ALL
+GET http://localhost:3000/messages
+
+
+### CREATE MESSAGE
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+  "content": "hey gurl"
+}
+
+
+### GET ONE
+GET http://localhost:3000/messages/123
